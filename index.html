@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jászladány Virágkertészet</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8fb;
+      color: #333;
+    }
+
+    header {
+      background: #b83280;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 16px;
+    }
+
+    nav {
+      background: white;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 8px #ddd;
+    }
+
+    nav a {
+      color: #b83280;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: #ffe6f0;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      color: #9c286d;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #b83280;
+      color: white;
+      padding: 13px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      color: #b83280;
+      margin-bottom: 30px;
+    }
+
+    .flowers {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .flower {
+      background: white;
+      padding: 25px;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 3px 12px #ddd;
+    }
+
+    .flower .emoji {
+      font-size: 55px;
+      margin-bottom: 15px;
+    }
+
+    .flower h3 {
+      margin-bottom: 10px;
+      color: #9c286d;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #b83280;
+      margin-top: 10px;
+    }
+
+    .contact {
+      background: #ffe6f0;
+      text-align: center;
+    }
+
+    footer {
+      background: #b83280;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🌷 Jászladány Virágkertészet</h1>
+    <p>Friss és gyönyörű virágok minden alkalomra</p>
+  </header>
+
+  <nav>
+    <a href="#viragok">Virágok</a>
+    <a href="#csokrok">Csokrok</a>
+    <a href="#kapcsolat">Kapcsolat</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Üdvözlünk a Virágkertészetünkben! 🌸</h2>
+    <p>Gyönyörű virágok és csokrok Jászladányban.</p>
+    <a href="#viragok" class="button">Virágok megtekintése</a>
+  </section>
+
+  <section class="section" id="viragok">
+    <h2>🌹 Virágaink</h2>
+
+    <div class="flowers">
+
+      <div class="flower">
+        <div class="emoji">🌹</div>
+        <h3>Rózsa</h3>
+        <p>Friss, gyönyörű rózsák többféle színben.</p>
+        <div class="price">Ár: 1 000 Ft</div>
+      </div>
+
+      <div class="flower">
+        <div class="emoji">🌷</div>
+        <h3>Tulipán</h3>
+        <p>Színes tulipánok tavaszi hangulathoz.</p>
+        <div class="price">Ár: 700 Ft</div>
+      </div>
+
+      <div class="flower">
+        <div class="emoji">🌻</div>
+        <h3>Napraforgó</h3>
+        <p>Vidám és gyönyörű napraforgók.</p>
+        <div class="price">Ár: 900 Ft</div>
+      </div>
+
+      <div class="flower">
+        <div class="emoji">🌺</div>
+        <h3>Virágcsokor</h3>
+        <p>Egyedi csokrok különleges alkalmakra.</p>
+        <div class="price">Ár: 3 500 Ft-tól</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="csokrok">
+    <h2>💐 Csokrok rendelése</h2>
+    <p style="text-align:center;">
+      Különleges alkalomra keresel virágot?
+      Kérj egyedi csokrot személyesen vagy telefonon!
+    </p>
+  </section>
+
+  <section class="section contact" id="kapcsolat">
+    <h2>📞 Kapcsolat</h2>
+    <p>📍 Jászladány</p>
+    <p>📞 Telefon: IDE ÍRD A TELEFONSZÁMOT</p>
+    <p>✉️ E-mail: IDE ÍRD AZ E-MAIL-CÍMET</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Jászladány Virágkertészet</p>
+  </footer>
+
+</body>
+</html>
